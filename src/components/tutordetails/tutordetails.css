@@ -1,0 +1,111 @@
+.tutorContainer{
+    flex: 1.8;
+    width: 100%;
+    height: 100%;
+    
+}
+.tutorDetailsWapper{
+    height: 90vh;
+    width: 100vh;
+    border: 2px solid rgba(205,204,246,255);
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-left: 30px;
+}
+.tutorDetails{
+    padding: 50px 30px 50px 30px;
+}
+.tutorHeading>span{
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.tutorName{
+    font-size: 40px;
+    color: rgba(114,111,231,255);
+}
+/* .tutorFullDetails{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+} */
+.tutorFullDetails{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.tutorImg{
+    position: relative;
+}
+.tutorImg.image{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    float: left;
+    padding: 10px;
+    shape-outside: circle();
+    margin-top: 100px;
+}
+.tutorImg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tutor_activity_logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.tutor_activity_logo.img1{
+    margin-left: -110px;
+    margin-top: 30px;
+}
+.tutor_activity_logo.img2{
+    margin-left: -25px;
+    margin-top: -20px;
+}
+.tutor_activity_logo.img3{
+    margin-top: 10px;
+}
+.tutor_activity_logo.img4{
+    margin-top: 20px;
+    margin-left: -30px;
+}
+.tutor_activity_logo.img5{
+    margin-left: 90px;
+    margin-top: -20px;
+}
+.tutor_activity_details>div{
+    display: flex;
+}
+.tutor_activity_text1{
+    margin-top: 10px;
+}
+.tutor_activity_text2{
+    margin-left: 20px;
+}
+.tutor_activity_text3{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 250px;
+}
+.tutor_activity_text4{
+    margin-top: 60px;
+    margin-left: 16px;
+}
+.tutor_activity_text5{
+    margin-top: 50px;
+    margin-left: -10px;
+}
+.footerImg{
+    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+    background-color: white;
+}
